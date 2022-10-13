@@ -23,7 +23,12 @@ namespace WPF_GIT_2
         public MainWindow()
         {
             InitializeComponent();
-            label.Content = "hello word";
+           
+        }
+
+        private void btnStampa_Click(object sender, RoutedEventArgs e)
+        {
+            label.Content = "hello world";
         }
     }
 }
