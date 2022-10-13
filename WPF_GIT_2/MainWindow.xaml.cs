@@ -25,7 +25,7 @@ namespace WPF_GIT_2
             InitializeComponent();
            
         }
-
+//bottone per la stampa
         private void btnStampa_Click(object sender, RoutedEventArgs e)
         {
             label.Content = "hello world";
